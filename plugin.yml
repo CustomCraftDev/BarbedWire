@@ -1,0 +1,24 @@
+name: BarbedWire
+main: xyz.undeaD_D.pokemononline.BarbedWire
+description: BarbedWire plugin
+version: 2.0
+author: undeaD_D
+website: http://www.pokemon-online.xyz/plugin/
+authors: [DieFriiks, CustomCraftDev, undeaD_D]
+commands:
+  bw:
+    usage: /bw reload
+    description: Reloads the BarbedWire config.yml
+permissions:
+  bw.use:
+    description: Allows you to break BarbedWire.
+    default: op
+  bw.bypass:
+    description: Bypasses the damage.
+    default: op
+  bw.update:
+    description: Notifies you if an Update is available.
+    default: op
+  bw.reload:
+    description: Gives access to the /bw-reload command.
+    default: op
